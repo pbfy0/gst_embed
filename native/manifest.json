@@ -1,0 +1,9 @@
+{
+  "name": "com.pbfy0.gst_embed",
+  "description": "Chrome gstreamer embed",
+  "path": "C:\\Users\\Paul\\Documents\\gst_embed\\native\\stream_native.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://oioakphokcifaolgeniabjhfjidgfnel/"
+  ]
+}

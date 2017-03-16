@@ -33,6 +33,7 @@ if(location.hash != '') {
 		}
 
 		port.onMessage.addListener(function(r){
+			if(r == "") return;
 			/*var z = atob(r);
 			for(var j = 0; j < 640*480+320*240*2; j++) {
 				aa[j] = z.charCodeAt(j)
@@ -44,4 +45,5 @@ if(location.hash != '') {
 		
 		port.postMessage(unescape(location.hash.substr(1)))
 	})
+	window.onbeforeunload = function() { port.disconnect() }
 }

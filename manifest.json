@@ -7,9 +7,8 @@
 	  "page": "embed.html"
 	},
 	"web_accessible_resources": [
-      "base64.js",
 	  "demo-bundled.js",
-	  "background.js",
+	  "embed.js",
 	  "embed.html"
     ],
     "permissions": [
